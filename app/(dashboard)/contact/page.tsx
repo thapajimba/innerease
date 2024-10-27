@@ -3,30 +3,16 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Heart, Mail, Phone, MapPin } from "lucide-react"
+import Navbar from "@/components/nav"
+import Footer from "@/components/footer"
+
+
 
 export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex items-center justify-center" href="/">
-          <Heart className="h-6 w-6 text-teal-500" />
-          <span className="ml-2 text-2xl font-bold text-gray-800">MindfulCare</span>
-        </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/services">
-            Services
-          </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/about">
-            About
-          </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/contact">
-            Contact
-          </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="/blog">
-            Blog
-          </Link>
-        </nav>
-      </header>
+        <Navbar/>
+
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-teal-50">
           <div className="container px-4 md:px-6">
@@ -86,39 +72,16 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Mail className="h-5 w-5 text-teal-500 mr-2" />
-                    <span>info@mindfulcare.com</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Phone className="h-5 w-5 text-teal-500 mr-2" />
-                    <span>(123) 456-7890</span>
-                  </div>
-                  <div className="flex items-center">
-                    <MapPin className="h-5 w-5 text-teal-500 mr-2" />
-                    <span>123 Wellness Street, Mindful City, MC 12345</span>
+                    <span>innerease2025@gmail.com</span>
                   </div>
                 </div>
-                <h2 className="text-2xl font-bold mt-8 mb-4">Office Hours</h2>
-                <ul className="space-y-2">
-                  <li>Monday - Friday: 9:00 AM - 7:00 PM</li>
-                  <li>Saturday: 10:00 AM - 4:00 PM</li>
-                  <li>Sunday: Closed</li>
-                </ul>
+                
               </div>
             </div>
           </div>
         </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-600">© 2023 MindfulCare. All rights reserved.</p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Terms of Service
-          </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Privacy
-          </Link>
-        </nav>
-      </footer>
+      <Footer/>
     </div>
   )
 }
