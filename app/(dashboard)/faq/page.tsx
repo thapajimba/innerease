@@ -1,6 +1,4 @@
-import Link from "next/link"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Heart } from "lucide-react"
 import Navbar from "@/components/nav"
 import Footer from "@/components/footer"
 

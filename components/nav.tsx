@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "next/link"
-import { Heart, MessageCircle, Users, Zap } from "lucide-react"
+import { Heart } from "lucide-react"
 
 
 
