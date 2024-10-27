@@ -105,3 +105,5 @@ export default function BlogPage() {
     </div>
   )
 }
+
+// git config --global user.email "thapajimba@gmail.com"
