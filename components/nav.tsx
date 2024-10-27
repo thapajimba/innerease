@@ -4,9 +4,8 @@ import { Heart } from "lucide-react"
 
 
 
-type Props = {}
 
-const nav = (props: Props) => {
+const nav = () => {
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="/">
