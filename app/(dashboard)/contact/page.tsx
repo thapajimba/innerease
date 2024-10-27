@@ -34,7 +34,7 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl text-center mb-12">
-              We're here to listen and support you. Reach out to us for any questions or to schedule an appointment.
+              We&apos;re here to listen and support you. Reach out to us for any questions or to schedule an appointment.
             </p>
           </div>
         </section>

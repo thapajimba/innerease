@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Heart } from "lucide-react"
+import Image from "next/image"
 
 export default function BlogPage() {
   return (
@@ -42,13 +43,15 @@ export default function BlogPage() {
               <article className="space-y-4">
                 <h2 className="text-3xl font-bold">5 Simple Mindfulness Techniques for Daily Life</h2>
                 <p className="text-gray-600">Published on June 15, 2023 | By Dr. Emily Johnson</p>
-                <img
-                  src="/placeholder.svg?height=300&width=600"
+                <Image
+                  src="/placeholder.svg"
                   alt="Person meditating"
+                  width={600}
+                  height={300}
                   className="w-full h-[300px] object-cover rounded-lg"
                 />
                 <p className="text-gray-600">
-                  Mindfulness is a powerful tool for reducing stress and improving overall well-being. In this post, we'll
+                  Mindfulness is a powerful tool for reducing stress and improving overall well-being. In this post, we&apos;ll
                   explore five simple mindfulness techniques you can easily incorporate into your daily routine.
                 </p>
                 <h3 className="text-xl font-bold">1. Mindful Breathing</h3>
@@ -68,7 +71,7 @@ export default function BlogPage() {
                 </p>
                 <h3 className="text-xl font-bold">4. Gratitude Practice</h3>
                 <p className="text-gray-600">
-                  Each day, take a moment to reflect on three things you're grateful for. This simple practice can shift your
+                  Each day, take a moment to reflect on three things you&apos;re grateful for. This simple practice can shift your
                   focus to the positive aspects of your life.
                 </p>
                 <h3 className="text-xl font-bold">5. Mindful Walking</h3>
@@ -105,5 +108,3 @@ export default function BlogPage() {
     </div>
   )
 }
-
-// git config --global user.email "thapajimba@gmail.com"

@@ -50,7 +50,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl font-bold mb-4">Our Approach</h2>
                 <p className="text-gray-600 mb-6">
                   We take a holistic, client-centered approach to counseling. Our team of experienced therapists uses a variety
-                  of evidence-based techniques tailored to each client's unique needs. We create a safe, non-judgmental space
+                  of evidence-based techniques tailored to each client&apos;s unique needs. We create a safe, non-judgmental space
                   where you can explore your thoughts and feelings, develop coping strategies, and work towards your personal
                   goals.
                 </p>

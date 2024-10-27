@@ -69,7 +69,7 @@ export default function FAQPage() {
               <AccordionItem value="item-4">
                 <AccordionTrigger>Are tips required?</AccordionTrigger>
                 <AccordionContent>
-                  No, tips are entirely optional. While they're appreciated, you are under no obligation to provide tips for
+                  No, tips are entirely optional. While they&apos;re appreciated, you are under no obligation to provide tips for
                   any of our services. The base price of each service covers the cost of providing that service.
                 </AccordionContent>
               </AccordionItem>
@@ -84,8 +84,8 @@ export default function FAQPage() {
               <AccordionItem value="item-6">
                 <AccordionTrigger>What is your refund policy?</AccordionTrigger>
                 <AccordionContent>
-                  Due to the nature of our digital services, most purchases are non-refundable. However, if you're unsatisfied
-                  with a service, please contact us, and we'll do our best to address your concerns. Tips are non-refundable.
+                  Due to the nature of our digital services, most purchases are non-refundable. However, if you&apos;re unsatisfied
+                  with a service, please contact us, and we&apos;ll do our best to address your concerns. Tips are non-refundable.
                   For more details, please refer to our Refund Policy.
                 </AccordionContent>
               </AccordionItem>
