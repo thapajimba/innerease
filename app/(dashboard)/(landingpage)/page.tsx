@@ -122,10 +122,15 @@ export default function HomePage() {
               </p>
               <div className="w-full max-w-sm space-y-2">
                 <form className="flex flex-col space-y-2">
-                  <Input type="email" placeholder="Enter your email" required />
-                  <Button type="submit">Get Started</Button>
+                  {/* <Input type="email" placeholder="Enter your email" required /> */}
+                  <Button asChild>
+                    <Link href="https://www.facebook.com/profile.php?id=61553113783578&mibextid=ZbWKwL" target="_blank">
+                      Get Started
+                    </Link>
+                  </Button>
                 </form>
               </div>
+
             </div>
           </div>
         </section>

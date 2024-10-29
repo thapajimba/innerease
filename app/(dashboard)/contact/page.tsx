@@ -1,16 +1,14 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Mail } from "lucide-react"
-import Navbar from "@/components/nav"
-import Footer from "@/components/footer"
-
-
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Mail, Facebook } from "lucide-react";
+import Navbar from "@/components/nav";
+import Footer from "@/components/footer";
 
 export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
-        <Navbar/>
+      <Navbar />
 
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-teal-50">
@@ -73,14 +71,24 @@ export default function ContactPage() {
                     <Mail className="h-5 w-5 text-teal-500 mr-2" />
                     <span>innerease2025@gmail.com</span>
                   </div>
+                  <div className="flex items-center">
+                    <Facebook className="h-5 w-5 text-teal-500 mr-2" />
+                    <a
+                      href="https://www.facebook.com/profile.php?id=61553113783578&mibextid=ZbWKwL"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-teal-500 hover:underline"
+                    >
+                      Facebook
+                    </a>
+                  </div>
                 </div>
-                
               </div>
             </div>
           </div>
         </section>
       </main>
-      <Footer/>
+      <Footer />
     </div>
-  )
+  );
 }

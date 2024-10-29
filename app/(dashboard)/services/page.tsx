@@ -104,7 +104,11 @@ export default function ServicesPage() {
               Choose the services that resonate with you and begin your wellness journey today.
             </p>
             <Button asChild size="lg">
-              <Link href="/contact">Get Started</Link>
+            <Button asChild>
+                    <Link href="https://www.facebook.com/profile.php?id=61553113783578&mibextid=ZbWKwL" target="_blank">
+                      Get Started
+                    </Link>
+                  </Button><Link href="/contact">Get Started</Link>
             </Button>
           </div>
         </section>
